@@ -45,12 +45,12 @@
 	<comp:ExtDataGrid width="100%" height="100%" dataProvider="{dpGrid}">
 		<comp:columns>
 			<!-- Normal DataGridColumn -->
-			<mx:DataGridColumn dataField="Id" />
+			<mx:DataGridColumn dataField="Id" textAlign="left" />
 			<!-- Custom BVIDataGridColumn -->
-			<comp:ExtDataGridColumn dataField="Company" />
-			<comp:ExtDataGridColumn dataField="Price" />
+			<comp:ExtDataGridColumn dataField="Company" textAlign="left" />
+			<comp:ExtDataGridColumn dataField="Price" textAlign="right" />
 			<comp:ExtDataGridColumn dataField="Size" />
-			<comp:ExtDataGridColumn dataField="Date" />
+			<comp:ExtDataGridColumn dataField="Date" textAlign="center" />
 			<!-- Exclude from the column selection list -->
 			<comp:ExtDataGridColumn dataField="Visible" allowColumnSelection="false" />
 		</comp:columns> 

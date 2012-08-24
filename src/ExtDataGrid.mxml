@@ -84,7 +84,7 @@
 				super.childrenCreated();
 				
 				// Create the menu
-				columnHeaderMenu = Menu.createMenu( stage, dpMenu, false );
+				columnHeaderMenu = Menu.createMenu( this, dpMenu, false );
 				columnHeaderMenu.variableRowHeight = true;
 				
 				// Relay item click events
